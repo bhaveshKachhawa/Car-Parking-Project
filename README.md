@@ -4,7 +4,7 @@ This is a web-based car parking system that allow users to register user,login u
 
 ## Features
 - Login:
-    *User can login through password and mail id also you can add new users through register.
+    * User can login through password and mail id also you can add new users through register.
 - Parking slots: 
     * View available slots
     * park car in available slots, and mark slots as occupied or false(empty).
@@ -12,9 +12,11 @@ This is a web-based car parking system that allow users to register user,login u
     * Register cars by giving car numbers and colors, and allocate them to available parking  slots.
 - Remove cars:
     * Remove parked cars and mark his slots available for parking.
-- Removed cars: You can see removed car history when car is parked his entry date, when car is removed exit date ,car color ,slot number and reg number.
+- Removed cars:
+    * You can see removed car history when car is parked his entry date, when car is removed exit date ,car color ,slot number and reg 
+      number.
 -Automatic slot update:
-    You can see avaliable slots , occupied slots on your home page they will automatically update as per the avlability.
+    * You can see avaliable slots , occupied slots on your home page they will automatically update as per the avlability.
 
 ## Technologies Used
 
@@ -31,11 +33,11 @@ This is a web-based car parking system that allow users to register user,login u
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/bhaveshKachhawa/Car-Parking-Project
+   git clone https://github.com/bhaveshKachhawa/Car-Parking-Project
 
 2. Navigate to the project directory:
 
-cd directory-name
+   cd directory-name
 
 3. Install project dependencies:
 
