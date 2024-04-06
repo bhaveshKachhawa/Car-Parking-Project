@@ -42,16 +42,9 @@ This is a web-based car parking system that allow users to register user,login u
 
    cd directory-name
 
-3. Install project dependencies:
+3. Run this command:
 
     -npm install
-    -npm init
-    -npm i nodemon
-    -npm i express
-    -npm i body-parser
-    -npm i express-session
-    -npm i hbs
-    -npm i mongoose
 
 4. Set up the MongoDB database:
    - Install MongoDB on your local machine if you haven't already.
