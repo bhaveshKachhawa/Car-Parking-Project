@@ -1,0 +1,32 @@
+<div class="modal fade" id="viewRemoveCars" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Removed Cars</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <form action="/clearRemovedCarsData" method="post">
+                    <div class="mb-3 px-3 pt-3">
+                        <button type="submit" class="btn btn-primary">Clear Records</button>
+                    </div>
+                    <div class="mb-3" style="overflow: auto;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Slot number</th>
+                                    <th scope="col">Car number</th>
+                                    <th scope="col">Car color</th>
+                                    <th scope="col">Entry date & Time</th>
+                                    <th scope="col">Exit date & Time</th>
+                                </tr>
+                            </thead>
+                            <tbody id="removedCarsTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

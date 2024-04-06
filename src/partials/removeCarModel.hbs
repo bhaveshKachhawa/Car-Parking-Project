@@ -1,0 +1,22 @@
+<div class="modal fade" id="removeCar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Remove Car</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="/removeCar" id="removeCarForm">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Your Car Number</label>
+                        <input type="text" class="form-control border-dark" name="carNumber"
+                            id="exampleFormControlInput1" required>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

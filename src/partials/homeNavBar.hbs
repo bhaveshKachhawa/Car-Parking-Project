@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg position-fixed fixed-top" style="background-color:lightgray;">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-5 fw-medium" href="#" curser="pointer">CAR PARKING LOT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav fs-5">
+                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+                    data-bs-target="#viewalldata">Parked Cars</a>
+                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+                    data-bs-target="#viewRemoveCars">Removed Cars</a>
+                <a class="nav-link" href="login">Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+{{>parkedCarsModel}}

@@ -1,0 +1,34 @@
+<div class="modal fade" id="getSlotNumber" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Check Your Slot Number</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="slotNumberByRegisterForm" method="post">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Your car number</label>
+                        <input type="text" class="form-control border-dark" id="carNumber" required>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary" id="slotDataBtn">Submit</button>
+                    </div>
+                    <div style="overflow: auto;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Reg. number</th>
+                                    <th scope="col">Slot number</th>
+                                    <th scope="col">Entry date & Time</th>
+                                </tr>
+                            </thead>
+                            <tbody id="slotTable">
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

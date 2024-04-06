@@ -1,0 +1,45 @@
+<div class="modal fade" id="getRegisterNumber" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Same Color Cars Data</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="colorByRegisterForm" method="post">
+                    <div class="mb-3">
+                        <select class="form-select border-dark" aria-label="Select your car color" id="color">
+                            <option value="red" selected>Red</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                            <option value="indigo">Indigo</option>
+                            <option value="violet">Violet</option>
+                            <option value="white">White</option>
+                            <option value="black">Black</option>
+                            <option value="gray">Gray</option>
+                            <option value="brown">Brown</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary" id="fetchDataBtn">Submit</button>
+                    </div>
+                    <div style="overflow: auto;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Reg. number</th>
+                                    <th scope="col">Car color</th>
+                                    <th scope="col">Entry date & Time</th>
+                                </tr>
+                            </thead>
+                            <tbody id="carParkingTable">
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

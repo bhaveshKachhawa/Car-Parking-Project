@@ -1,0 +1,52 @@
+{{#if message}}
+<div class="position-absolute alert alert-primary show" role="alert">
+    <strong>{{message}}</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}}
+<div class="container border border-2 py-2 w-100"
+    style="background:linear-gradient(to top ,grey,white);box-shadow:1px 1px 5px 1px black;margin-bottom:4rem;">
+    <div class="row">
+        <div class="col-xl-5 d-md-flex align-items-center">
+            <form class="container" method="post" action="/registerUser">
+                <h1 class="display-6 text-dark text-center">Welcome..</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="form-label pt-3" for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control border-dark border-1"
+                            placeholder="user@example.com" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label class="form-label pt-3" for="password">Password</label>
+                        <input name="password" type="password" id="password" class="form-control border-dark border-1"
+                            placeholder="Enter Your Password" minlength="8" required />
+                    </div>
+                    <div class="col-md-5">
+                        <label class="form-check-label mt-2 mt-md-5 pt-2" for="passwordCheck">
+                            <input class="border-dark form-check-input" type="checkbox" id="passwordCheck"
+                                onclick="showPassword()">
+                            Show Password
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit"
+                            class=" form-control btn mt-4 mb-3 border-dark btn-success btn-lg">Register</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <span>Already have an account?<a href="./login" class="text-dark">Login</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-xl-7">
+            <img style="box-shadow:1px 1px 5px 1px black;" class="img-fluid rounded"
+                src="https://images.unsplash.com/photo-1604063165585-e17e9c3c3f0b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+    </div>
+</div>
