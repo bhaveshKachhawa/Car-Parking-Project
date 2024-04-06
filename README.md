@@ -17,6 +17,9 @@ This is a web-based car parking system that allow users to register user,login u
       number.
 -Automatic slot update:
     * You can see avaliable slots , occupied slots on your home page they will automatically update as per the avlability.
+- Display Records:
+   * You can view records as per different criterias like - get register number by car color , get car slot number using car register 
+     number, get same color cars slot numbers.
 
 ## Technologies Used
 
